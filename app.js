@@ -32,17 +32,17 @@ app.get("/campus",(req,res) => {
 
 
 
-app.get("/blogs", function(req, res){
+// app.get("/blogs", function(req, res){
 
-    Blog.find({}, function(err, blogs){
-        if(err){
-            console.log(err);
-        } else {
+//     Blog.find({}, function(err, blogs){
+//         if(err){
+//             console.log(err);
+//         } else {
             
-            res.render("blogs", {blogs: blogs}); 
-        }
-    })
-});
+//             res.render("blogs", {blogs: blogs}); 
+//         }
+//     })
+// });
 app.get("/blogs/new",(req,res) => {
     res.render("new");
 })
