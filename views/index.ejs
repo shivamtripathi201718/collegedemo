@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NIT SILCHAR</title>
+    <link rel="stylesheet" href="stylesheets/index/index.css">
+  
+    <link rel="shortcut icon" href="stylesheets/index/logofinal.png" type="image/x-icon" />
+    <style>
+        #main-footer {
+            box-sizing: border-box;
+            position: relative;
+            top: 12vh;
+            background: #d4d4d4;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        #footer-head {
+            position: relative;
+            top: 3vh;
+            flex-basis: 100%;
+            text-align: center;
+            font-weight: bold;
+            box-sizing: border-box;
+            margin-bottom: 4vh;
+            font-size: 3.5vh;
+            color: #420000;
+        }
+
+        .footer-items {
+            margin-top: 3vh;
+            flex-basis: 20vw;
+            margin-bottom: 4vh;
+            box-sizing: border-box;
+        }
+
+        .footer-item-head {
+            color: #420000;
+            font-weight: bold;
+            font-size: 3vh;
+            letter-spacing: 2px;
+        }
+
+        .footer-item {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-bottom: 3vh;
+        }
+
+        .link {
+            box-sizing: border-box;
+            margin-bottom: 0.8vh;
+            margin-top: 3vh;
+            margin-right: 2vw;
+        }
+
+        .link a {
+            text-decoration: none;
+            font-size: 2.3vh;
+            color: black;
+            font-weight: bold;
+        }
+
+        .link a:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        #social-icons {
+            height: 12vh;
+            display: flex;
+            background: #B1040E;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <nav class="navbar1">
+        <ul class="nav1">
+            <li id="brand"><a href="#">NIT SILCHAR</a></li>
+            <li><a href="#">ADMISSION</a></li>
+            <li><a href="#">RESULTS</a></li>
+            <li><a href="#">CONTACT US</a></li>
+        </ul>
+    </nav>
+
+    <nav class="navbar2">
+        <ul class="nav2">
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">ADMINISTRATION</a></li>
+            <li><a href="#">DEPARTMENTS</a></li>
+            <li><a href="#">ACADEMICS</a></li>
+            <li><a href="#">RESEARCH</a></li>
+            <li><a href="#">ACHIEVEMENTS</a></li>
+            <li><a href="#">CAMPUS LIFE</a></li>
+        </ul>
+    </nav> -->
+    <nav class="navbar1">
+        <ul class="nav1">
+            <li id="brand"><a href="#">NATIONAL INSTITUTE OF TECHNOLOGY,SILCHAR</a></li>
+            <li><a href="#">ADMISSION</a></li>
+            <li><a href="#">RESULTS</a></li>
+            <li><a href="#">CONTACT US</a></li>
+        </ul>
+    </nav>
+
+    <nav class="navbar2">
+        <ul class="nav2">
+            <li id="abt">ABOUT</li>
+            <div id="abt-nav-lg" class="sub-nav-lg">
+                <div class="nav-items"><a href="#">Our Vision & Mission</a></div>
+                <div class="nav-items"><a href="#">Our Objective & Values</a></div>
+                <div class="nav-items"><a href="#">Message from the Director</a></div>
+                <div class="nav-items"><a href="#">List of Director</a></div>
+            </div>
+            <li id="admin">ADMINISTRATION</li>
+            <div id="admin-nav-lg" class="sub-nav-lg">
+                <div class="nav-items"><a href="#">Director</a></div>
+                <div class="nav-items"><a href="#">Registrar</a></div>
+                <div class="nav-items"><a href="#">Deans</a></div>
+                <div class="nav-items"><a href="#">Associate Deans</a></div>
+                <div class="nav-items"><a href="#">HODs</a></div>
+                <div class="nav-items"><a href="#">Deputy Registrar</a></div>
+                <div class="nav-items"><a href="#">Wardens</a></div>
+                <div class="nav-items"><a href="#">Establishment Section</a></div>
+                <div class="nav-items"><a href="#">Estate Engineering Section</a></div>
+                <div class="nav-items"><a href="#">Board of Governors</a></div>
+                <div class="nav-items"><a href="#">Senate Committe</a></div>
+                <div class="nav-items"><a href="#">Building & Works Committe</a></div>
+
+
+            </div>
+            <li id="dept">DEPARTMENTS</li>
+            <div id="dept-nav-lg" class="sub-nav-lg">
+                <div class="nav-items"><a href="#">Computer Science & Engineering</a></div>
+                <div class="nav-items"><a href="#">Electronics & Communication Engineering</a></div>
+                <div class="nav-items"><a href="#">Electronics & Instrumentation Engineering</a></div>
+                <div class="nav-items"><a href="#">Electrical Engineering</a></div>
+                <div class="nav-items"><a href="#">Mechanical Engineering</a></div>
+                <div class="nav-items"><a href="#">Civil Engineering</a></div>
+                <div class="nav-items"><a href="#">Mathematics</a></div>
+                <div class="nav-items"><a href="#">Physics</a></div>
+                <div class="nav-items"><a href="#">Chemistry</a></div>
+                <div class="nav-items"><a href="#">Humanities</a></div>
+                <div class="nav-items"><a href="#">Management Studies</a></div>
+            </div>
+            <li id="acad">ACADEMICS</li>
+            <div id="acad-nav-lg" class="sub-nav-lg">
+                <div class="nav-items"><a href="#">Programmes</a></div>
+                <div class="nav-items"><a href="#">Rules & Regulations</a></div>
+                <div class="nav-items"><a href="#">Academic Notices</a></div>
+                <div class="nav-items"><a href="#">Academics Forms</a></div>
+                <div class="nav-items"><a href="#">Academics Calender/Time Table</a></div>
+                <div class="nav-items"><a href="#">Fee Structure</a></div>
+                <div class="nav-items"><a href="#">Results</a></div>
+                <div class="nav-items"><a href="#">Convocation</a></div>
+                <div class="nav-items"><a href="#">Document Verification(UG/PG/PHD)</a></div>
+                <div class="nav-items"><a href="#">Internship</a></div>
+            </div>
+            <li id="research">RESEARCH</li>
+            <li id="achieve">ACHIEVEMENTS</li>
+            <li id="campus">CAMPUS LIFE</li>
+            <div id="campus-nav-lg" class="sub-nav-lg">
+                <div class="nav-items"><a href="#">Gymkhana</a></div>
+                <div class="nav-items"><a href="#">Gyansagar</a></div>
+                <div class="nav-items"><a href="#">NCC-NITS</a></div>
+                <div class="nav-items"><a href="#">Sports & Games</a></div>
+                <div class="nav-items"><a href="#">Societies</a></div>
+                <div class="nav-items"><a href="#">Festivals</a></div>
+                <div class="nav-items"><a href="#">Alumni</a></div>
+                <div class="nav-items"><a href="#">Health Centre</a></div>
+                <div class="nav-items"><a href="#">Hostels</a></div>
+                <div class="nav-items"><a href="#">Guest House</a></div>
+                <div class="nav-items"><a href="#">Photo-Gallery</a></div>                                                                                                   
+            </div>
+        </ul>
+    </nav>
+    <!-- mobile view -->
+    <nav class="navbar1-mbl">
+        <ul class="nav1-mbl">
+            <li id="brand"><a href="#">NIT SILCHAR</a></li>
+            <li id="hamburger">&#9776;</li>
+        </ul>
+    </nav>
+    <div id='menu' class="hidden">
+        <div class="menu-item" id="abt-item"><a href="">ABOUT </a><i class="icon"
+                style="font-weight:bold;font-size:3vh;">&#8964;</i>
+        </div>
+        <div class="sub-menu hidden" id="abt-sub">
+            <div class=" abt-sub"><a href="">Our Vision & Mission</a></div>
+            <div class=" abt-sub "><a href="">Our Objective & Values</a></div>
+            <div class=" abt-sub"><a href="">Message from the Director</a></div>
+            <div class=" abt-sub"><a href="">List of Director</a></div>
+        </div>
+        <div class="menu-item"><a href="">DEPARTMENT</a></div>
+        <div class="menu-item"><a href="">RESEARCH</a></div>
+        <div class="menu-item"><a href="">ACHIEVEMENTS</a></div>
+        <div class="menu-item"><a href="">CAMPUS LIFE</a></div>
+        <div class="menu-item"><a href="">ADMISSION</a></div>
+        <div class="menu-item"><a href="">RESULTS</a></div>
+        <div class="menu-item"><a href="">CONTACT US</a></div>
+    </div>
+
+    <section id="page-1">
+        <div id="hero-text">
+            <div id="head-text">NIT SILCHAR</div>
+            <div id="support-text">-A Institute Of National Importance</div>
+        </div>
+    </section>
+    <section id="page-2">
+        <div id="titlebox">NOTICE BOARD</div>
+        <div id='news' class="notice">NEWS</div>
+        <div id="events" class="notice">EVENTS</div>
+        <div id="recruitment" class='notice'>RECRUITMENT</div>
+        <div id="tender" class="notice">TENDER</div>
+    </section>
+
+    <!-- big footer  -->
+    <div id="main-footer">
+        <div id="footer-head">QUICK LINKS</div>
+        <div class="footer-items">
+            <div class="footer-item-head">Academics</div>
+            <div class="footer-item">
+                <div class="link"><a href="">PROGRAMMES</a></div>
+                <div class="link"><a href="">ACADEMICS NOTICES</a></div>
+                <div class="link"><a href="">ACADEMIC CALENDAR / TIME TABLE</a></div>
+                <div class="link"><a href="">RESULTS</a></div>
+                <div class="link"><a href="">SCHOLARSHIPS</a></div>
+                <div class="link"><a href="">NIRF DOCUMENTS</a></div>
+                <div class="link"><a href="">CCMT HELP CENTRE</a></div>
+                <div class="link"><a href="">CCMN (JAM) ADMISSIONS</a></div>
+                <div class="link"><a href="">DASA ADMISSIONS</a></div>
+                <div class="link"><a href="">CSAB JEE MAIN</a></div>
+                <div class="link"><a href="">SESI STUDENT CHAPTER</a></div>
+                <div class="link"><a href="">IEEE-EDS STUDENT BRANCH CHAPTER</a></div>
+                <div class="link"><a href="">HPC (NITS SUPERCOMPUTING CENTRE)</a></div>
+                <div class="link"><a href="">INSTITUTE PUBLICATION</a></div>
+                <div class="link"><a href="">GIAN</a></div>
+                <div class="link"><a href="">WORKSHOPS / SEMINARS</a></div>
+                <div class="link"><a href="">CONFERENCES</a></div>
+            </div>
+        </div>
+        <div class="footer-items">
+            <div class="footer-item-head">Departments</div>
+            <div class="footer-item">
+                <div class="link"><a href="">COMPUTER SCIENCE & ENGINEERING</a></div>
+                <div class="link"><a href="">ELECTRONICS & COMMUNICATION ENGINEERING</a></div>
+                <div class="link"><a href="">ELECTRONICS & INSTRUMENTATION ENGINEERING</a></div>
+                <div class="link"><a href="">ELECTRICAL ENGINEERING</a></div>
+                <div class="link"><a href="">MECHANICAL ENGINEERING</a></div>
+                <div class="link"><a href="">ELECTRICAL ENGINEERING</a></div>
+                <div class="link"><a href="">CIVIL ENGINEERING</a></div>
+                <div class="link"><a href="">DEPARTMENT OF MATHEMATICS</a></div>
+                <div class="link"><a href="">DEPARTMENT OF PHYSICS</a></div>
+                <div class="link"><a href="">DEPARTMENT OF CHEMISTRY</a></div>
+                <div class="link"><a href="">DEPARTMENT OF HUMANITIES AND SOCIAL SCIENCES</a></div>
+                <div class="link"><a href="">DEPARTMENT OF MANAGEMENT STUDIES</a></div>
+            </div>
+
+
+        </div>
+        <div class="footer-items">
+            <div class="footer-item-head">Explore NITS</div>
+            <div class="footer-item">
+                <div class="link"><a href="">CAMPUS FACILITIES</a></div>
+                <div class="link"><a href="">GYMKHANA</a></div>
+                <div class="link"><a href="">FESTIVALS</a></div>
+                <div class="link"><a href="">SOCIETIES</a></div>
+                <div class="link"><a href="">HEALTH CENTRE</a></div>
+                <div class="link"><a href="">HOSTELS</a></div>
+                <div class="link"><a href="">PHOTO GALLERY</a></div>
+            </div>
+            <div class="footer-item-head">External Links</div>
+            <div class="footer-item">
+                <div class="link"><a href="">AICTE WEBSITE</a></div>
+                <div class="link"><a href="">UGC WEBSITE</a></div>
+                <div class="link"><a href="">COUNCIL OF NITs</a></div>
+                <div class="link"><a href="">IEEE WEBSITE</a></div>
+                <div class="link"><a href="">NPIU WEBSITE</a></div>
+            </div>
+
+        </div>
+        <div class="footer-items">
+            <div class="footer-item-head">Other Links</div>
+            <div class="footer-item">
+                <div class="link"><a href="">E-TENDERING WEBSITE (OF NITS)</a></div>
+                <div class="link"><a href="">ALUMNI</a></div>
+                <div class="link"><a href="">MINUTES OF BOG, FC & BWC</a></div>
+                <div class="link"><a href="">NIT ACTS & STATUTES</a></div>
+                <div class="link"><a href="">PENSION MATTERS</a></div>
+                <div class="link"><a href="">PROPERTY RETURNS</a></div>
+                <div class="link"><a href="">ANTI-RAGGING POLICIES / COMMITTEE</a></div>
+                <div class="link"><a href="">4-TIER FACULTY RECRUITMENT RULES</a></div>
+                <div class="link"><a href="">NON-TEACHING RECRUITMENT RULES</a></div>
+                <div class="link"><a href="">REVISED NON-TEACHING RECRUITMENT RULES</a></div>
+                <div class="link"><a href="">TEQIP CELL</a></div>
+                <div class="link"><a href="">NBA CELL</a></div>
+                <div class="link"><a href="">IPR CELL</a></div>
+                <div class="link"><a href="">TRAINING AND PLACEMENT (T&P) CELL</a></div>
+                <div class="link"><a href="">REGIONAL TEST CENTER FOR SOLAR DEVICES</a></div>
+                <div class="link"><a href="">LIBRARY</a></div>
+                <div class="link"><a href="">CENTRAL COMPUTER CENTRE</a></div>
+                <div class="link"><a href="">COMMITTEES</a></div>
+                <div class="link"><a href="">COMPLAINTS OF CASTE-BASED DISCRIMINATION</a></div>
+
+            </div>
+        </div>
+    </div>
+    <!-- <footer id="social-icons">
+         <div id="social-title">NIT SILCHAR</div>
+         <div><i>Facebook</i></div>
+         <div><i>Twitter</i></div>
+         <div><i>Instagram</i></div>
+         <div><i>Facebook</i></div>
+                  
+    </footer> -->
+</body>
+<script>
+    const subNav = document.querySelectorAll(".sub-nav-lg");
+    const hideAll = () => {
+        for (let i = 0; i < subNav.length; i++) {
+            subNav[i].style.display = "none";
+        }
+    }
+    hideAll();
+    const abtSubNav = document.querySelector("#abt-nav-lg");
+    const abtNav = document.querySelector("#abt");
+
+    const adminSubNav = document.querySelector("#admin-nav-lg");
+    const adminNav = document.querySelector("#admin");
+
+    const deptSubNav = document.querySelector("#dept-nav-lg");
+    const deptNav = document.querySelector("#dept");
+
+    const acadSubNav = document.querySelector("#acad-nav-lg");
+    const acadNav = document.querySelector("#acad");
+
+    const researchNav = document.querySelector("#research");
+
+    const achieveNav = document.querySelector("#achieve");
+
+    const campusSubNav = document.querySelector("#campus-nav-lg");
+    const campusNav = document.querySelector("#campus");
+
+
+    abtNav.addEventListener("mouseenter", () => {
+        hideAll();
+        abtSubNav.style.display = "block";
+
+    })
+    abtSubNav.addEventListener("mouseleave", () => {
+        abtSubNav.style.display = "none";
+        hideAll();
+
+    })
+
+    adminNav.addEventListener("mouseenter", () => {
+        hideAll();
+        adminSubNav.style.display = "block";
+    })
+    adminSubNav.addEventListener("mouseleave", () => {
+        hideAll();
+    })
+
+    deptNav.addEventListener("mouseenter", () => {
+        hideAll();
+        deptSubNav.style.display = "block";
+    })
+    deptSubNav.addEventListener("mouseleave", () => {
+        hideAll();
+    })
+
+    acadNav.addEventListener("mouseenter", () => {
+        hideAll();
+        acadSubNav.style.display = "block";
+    })
+    acadSubNav.addEventListener("mouseleave", () => {
+        hideAll();
+    })
+
+    researchNav.addEventListener("mouseenter", () => {
+        hideAll();
+    })
+
+    achieveNav.addEventListener("mouseenter", () => {
+        hideAll();
+    })
+
+    campusNav.addEventListener("mouseenter", () => {
+        hideAll();
+        campusSubNav.style.display = "block";
+    })
+    campusSubNav.addEventListener("mouseleave", () => {
+        hideAll();
+    })
+
+
+
+</script>
+<!-- SCRIPT FOR MOBILE -->
+<script>
+    const menu = document.querySelector("#menu");
+    const abtItem = document.querySelector("#abt-item");
+    const abtSub = document.querySelector("#abt-sub");
+
+
+    const hamburger = document.querySelector("#hamburger");
+
+    hamburger.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+    })
+    abtItem.addEventListener("click", () => {
+        abtSub.classList.toggle("hidden");
+    })
+</script>
+
+</html>
